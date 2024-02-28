@@ -1,0 +1,44 @@
+
+body{
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.todo-container{
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    margin: auto;
+    padding: 2rem;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.todo-header{
+    text-align: center;
+   
+}
+
+.todo-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.todo-btn{
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+
