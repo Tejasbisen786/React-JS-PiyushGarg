@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import TodoItem from "./components/TodoItem";
 import Button from "./components/Button";
 import "./style.css";
-
+import Counter from "./components/Counter";
 const App = () => {
   return (
     <div className="todo-container">
@@ -13,6 +13,8 @@ const App = () => {
       <TodoItem text="Lunch" />
       <TodoItem text="Dinner" />
       <Button />
+      <Counter />
+
     </div>
   );
 };
